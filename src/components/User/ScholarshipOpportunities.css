@@ -1,0 +1,60 @@
+.scholarship-container {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.scholarship-title {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.scholarship-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.scholarship-card {
+  border: 1px solid #ccc;
+  padding: 20px;
+  width: 300px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+}
+
+.scholarship-card:hover {
+  transform: scale(1.05);
+}
+
+.scholarship-name {
+  font-size: 1.5rem;
+  color: #3498db;
+}
+
+.scholarship-description {
+  font-size: 1rem;
+  margin: 10px 0;
+}
+
+.scholarship-eligibility,
+.scholarship-deadline {
+  font-size: 0.9rem;
+  color: #555;
+}
+
+.scholarship-link {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 8px 15px;
+  background-color: #3498db;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.scholarship-link:hover {
+  background-color: #2980b9;
+}

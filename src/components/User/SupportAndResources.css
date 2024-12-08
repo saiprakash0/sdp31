@@ -1,0 +1,45 @@
+.support-container {
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 8px;
+    max-width: 800px;
+    margin: 30px auto;
+  }
+  
+  h2 {
+    text-align: center;
+    color: #333;
+  }
+  
+  .faq-section {
+    margin-top: 20px;
+  }
+  
+  .faq-item {
+    background-color: #fff;
+    margin-bottom: 15px;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .faq-item h4 {
+    color: #333;
+  }
+  
+  .faq-item p {
+    color: #555;
+    line-height: 1.6;
+  }
+  
+  .contact-info {
+    margin-top: 30px;
+    text-align: center;
+    font-size: 16px;
+    color: #555;
+  }
+  
+  .contact-info strong {
+    color: #007bff;
+  }
+  
